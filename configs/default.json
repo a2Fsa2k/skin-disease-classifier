@@ -1,0 +1,22 @@
+{
+  "model_name": "resnet18",
+  "checkpoint_path": "model/model_resnet18.pth",
+  "image_size": 224,
+  "batch_size": 16,
+  "epochs": 5,
+  "learning_rate": 0.0005,
+  "validation_split": 0.2,
+  "random_seed": 42,
+  "freeze_backbone": false,
+  "num_workers": 0,
+  "top_k": 3,
+  "class_names": [
+    "Melanocytic nevi",
+    "Melanoma",
+    "Benign keratosis-like lesions",
+    "Basal cell carcinoma",
+    "Actinic keratoses",
+    "Vascular lesions",
+    "Dermatofibroma"
+  ]
+}
